@@ -2,7 +2,7 @@
 
 Salut et bienvenue ici. Auchan te propose de consacrer un peu de temps pour nous exposer tes talents.
 
-Tu trouveras ici le squelette d'un projet **Sprint Boot 2.3 (JAVA)** / **MongoDB** et **ReactJS 16.13.1 (TypeScript)**.
+Tu trouveras ici le squelette d'un projet **Sprint Boot 2.3 (JAVA)** / **MongoDB** et **VUE 3 (TypeScript)**.
 
 Passe ici 2-3 heures avec pour objectif de **créer un endpoint permettant de créer un objet qui va s'inscrire dans une collection MongoDB** de ton choix. 
 

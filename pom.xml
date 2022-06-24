@@ -11,7 +11,6 @@
 
     <modules>
         <module>technical-test-api</module>
-        <module>technical-test-front</module>
     </modules>
 
     <parent>
