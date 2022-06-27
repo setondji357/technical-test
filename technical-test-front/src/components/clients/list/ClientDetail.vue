@@ -42,7 +42,6 @@ export default {
   methods: {
     ...mapActions(["deleteClient", "fetchAllClients"]),
    async deleteClientModal(id) {
-     let isConfirmed=false;
      await this.$swal
         .fire({
           text: "Voulez vous vraiment supprimer ce client ?",
@@ -52,9 +51,7 @@ export default {
           showCancelButton: true,
         })
         .then((result) => {
-          isConfirmed=result["isConfirmed"];
           if (result["isConfirmed"]) {
-            
             this.deleteClient(id);
             this.$swal.fire({
               text: "Success, Client supprimé!",
