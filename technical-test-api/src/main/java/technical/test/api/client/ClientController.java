@@ -46,6 +46,7 @@ public class ClientController {
     @DeleteMapping("{id}")
     public ResponseEntity<?> deleteStudent(
             @PathVariable String id) {
+        clientService.deleteClient(id);
         return ResponseEntity.ok().body(id);
     }
     @PatchMapping("{id}")
